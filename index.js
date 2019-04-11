@@ -5,7 +5,7 @@ const needle = require('needle');
 const E = process.env;
 const SENSOR = E['SENSOR']||'';
 const ALARM = E['ALARM']||'';
-const REQUESTRATE = 1000;
+const DATARATE = parseInt(E['DATARATE']||'1000', 10);
 
 
 
@@ -18,4 +18,4 @@ async function onInterval() {
   console.log('ALARM', ALARM, res.body);
 }
 console.log('DISTANCEALARMGLUE running');
-setInterval(onInterval, REQUESTRATE);
+setInterval(onInterval, DATARATE);
