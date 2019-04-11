@@ -1,0 +1,28 @@
+{
+  "name": "ias-distancealarmglue",
+  "version": "0.1.0",
+  "description": "This service accepts the output of Distance Sensor and forwards it to Distance Alarm Service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiithf/ias-distancealarmglue.git"
+  },
+  "keywords": [
+    "ias",
+    "distance",
+    "alarm",
+    "glue"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iiithf/ias-distancealarmglue/issues"
+  },
+  "homepage": "https://github.com/iiithf/ias-distancealarmglue#readme",
+  "dependencies": {
+    "needle": "^2.3.0"
+  }
+}
