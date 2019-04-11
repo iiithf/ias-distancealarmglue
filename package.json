@@ -1,6 +1,6 @@
 {
   "name": "ias-distancealarmglue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This service accepts the output of Distance Sensor and forwards it to Distance Alarm Service.",
   "main": "index.js",
   "scripts": {
